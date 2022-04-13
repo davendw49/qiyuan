@@ -1,2 +1,0 @@
-# qiyuan
-qiyuan' s gallery
