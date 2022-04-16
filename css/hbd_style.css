@@ -22,10 +22,12 @@ body {
 .wrap {
   padding: 1.5em 2.5em;
   height: 100%;
+  overflow:scroll
 }
 
 #card-front, #card-inside {
   width: 50%;
+  height: 100%;
   -webkit-box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.25), 0 0 1px rgba(0, 0, 0, 0.5);
           box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.25), 0 0 1px rgba(0, 0, 0, 0.5);
   position: absolute;
@@ -39,7 +41,7 @@ body {
 }
 
 #card {
-  width: 960px;
+  width: 760px;
   margin: auto;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
@@ -52,10 +54,11 @@ body {
   transition: transform 1s ease-in-out;
   transition: transform 1s ease-in-out, -webkit-transform 1s ease-in-out;
   position: absolute;
-  top: 0;
+  /* top: 0; */
   bottom: 0;
   right: 0;
   left: 0;
+  top: 0;
 }
 
 #card h1 {
